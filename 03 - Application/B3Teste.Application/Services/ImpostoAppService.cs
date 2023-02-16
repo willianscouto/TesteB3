@@ -13,26 +13,26 @@ namespace B3Teste.Application.Services
         
             _mapper = mapper;
         }
-        private double GetImposto06Meses
+        private static double GetImposto06Meses
         {
             get { return Double.Parse("22,5"); }
         }
 
-        private double GetImposto12Meses
+        private static  double GetImposto12Meses
         {
             get { return Double.Parse("20"); }
         }
 
-        private double GetImposto24Meses
+        private static double GetImposto24Meses
         {
             get { return Double.Parse("17,5"); }
         }
-        private double GetImpostoMaior24Meses
+        private static double GetImpostoMaior24Meses
         {
             get { return Double.Parse("15"); }
         }
 
-        private double GetPercentualImposto(int totalMesesResgate)
+        private static double GetPercentualImposto(int totalMesesResgate)
         {
             return totalMesesResgate < 7 ? GetImposto06Meses :
                    totalMesesResgate > 6 && totalMesesResgate < 13 ? GetImposto12Meses :

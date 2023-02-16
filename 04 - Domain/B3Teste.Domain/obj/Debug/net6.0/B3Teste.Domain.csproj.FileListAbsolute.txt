@@ -10,3 +10,15 @@ C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Tes
 C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\refint\B3Teste.Domain.dll
 C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.pdb
 C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\ref\B3Teste.Domain.dll
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\bin\Debug\net6.0\B3Teste.Domain.deps.json
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\bin\Debug\net6.0\B3Teste.Domain.dll
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\bin\Debug\net6.0\B3Teste.Domain.pdb
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.csproj.AssemblyReference.cache
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.AssemblyInfoInputs.cache
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.AssemblyInfo.cs
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.csproj.CoreCompileInputs.cache
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.dll
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\refint\B3Teste.Domain.dll
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.pdb
+E:\Projetos\B3\Teste\TesteB3\04 - Domain\B3Teste.Domain\obj\Debug\net6.0\ref\B3Teste.Domain.dll
