@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "62zcg5CRFBCuNXhnKPBa/p5Xc/LI4jJT8MnhIn2y7jKMBhDy8L8YcmJ6JkMUscOHhKKgKgRdR5GhyR4EXvP8tw==",
+  "dgSpecHash": "YnHkhW5fqlqFhkDZq6pNePyuEI2OsCenyXA9tu2A2MPvHT51Rz04gp//YcR6uuaEKgROhEVXdZ/MxKn7InIHnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\03 - Application\\B3Teste.Application\\B3Teste.Application.csproj",
+  "projectFilePath": "E:\\Projetos\\B3\\Teste\\TesteB3\\03 - Application\\B3Teste.Application\\B3Teste.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leo-Note\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Leo-Note\\.nuget\\packages\\fluentvalidation\\11.5.0\\fluentvalidation.11.5.0.nupkg.sha512",

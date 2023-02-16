@@ -174,11 +174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\03 - Application\\B3Teste.Application\\B3Teste.Application.csproj",
+      "projectUniqueName": "E:\\Projetos\\B3\\Teste\\TesteB3\\03 - Application\\B3Teste.Application\\B3Teste.Application.csproj",
       "projectName": "B3Teste.Application",
-      "projectPath": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\03 - Application\\B3Teste.Application\\B3Teste.Application.csproj",
+      "projectPath": "E:\\Projetos\\B3\\Teste\\TesteB3\\03 - Application\\B3Teste.Application\\B3Teste.Application.csproj",
       "packagesPath": "C:\\Users\\Leo-Note\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\03 - Application\\B3Teste.Application\\obj\\",
+      "outputPath": "E:\\Projetos\\B3\\Teste\\TesteB3\\03 - Application\\B3Teste.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -202,8 +202,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\04 - Domain\\B3Teste.Domain\\B3Teste.Domain.csproj": {
-              "projectPath": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\04 - Domain\\B3Teste.Domain\\B3Teste.Domain.csproj"
+            "E:\\Projetos\\B3\\Teste\\TesteB3\\04 - Domain\\B3Teste.Domain\\B3Teste.Domain.csproj": {
+              "projectPath": "E:\\Projetos\\B3\\Teste\\TesteB3\\04 - Domain\\B3Teste.Domain\\B3Teste.Domain.csproj"
             }
           }
         }

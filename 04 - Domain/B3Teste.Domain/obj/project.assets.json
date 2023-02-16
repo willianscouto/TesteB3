@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\04 - Domain\\B3Teste.Domain\\B3Teste.Domain.csproj",
+      "projectUniqueName": "E:\\Projetos\\B3\\Teste\\TesteB3\\04 - Domain\\B3Teste.Domain\\B3Teste.Domain.csproj",
       "projectName": "B3Teste.Domain",
-      "projectPath": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\04 - Domain\\B3Teste.Domain\\B3Teste.Domain.csproj",
+      "projectPath": "E:\\Projetos\\B3\\Teste\\TesteB3\\04 - Domain\\B3Teste.Domain\\B3Teste.Domain.csproj",
       "packagesPath": "C:\\Users\\Leo-Note\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\04 - Domain\\B3Teste.Domain\\obj\\",
+      "outputPath": "E:\\Projetos\\B3\\Teste\\TesteB3\\04 - Domain\\B3Teste.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

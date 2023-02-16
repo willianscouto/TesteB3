@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JaWwp+B/NrgvbQolf7qZ4sEXK8AJJwtGnEyyDDD4e/Rs8ehF/dQVzoylrZbjxkG8nwQXN3NBM2Rv5eqi2uUHmw==",
+  "dgSpecHash": "fCOpwQ5M85uN1Fv2Bt3q5AdMUOHIyW3e35De5ehzovoVMPwcsA7LiHOfWj/H9EmuZQSasu9uVwOmNwMItiEKZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leo-Note\\Desktop\\B3Teste-Leonardo\\02 - Service\\B3Teste.API\\B3Teste.API.csproj",
+  "projectFilePath": "E:\\Projetos\\B3\\Teste\\TesteB3\\02 - Service\\B3Teste.API\\B3Teste.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leo-Note\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Leo-Note\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
