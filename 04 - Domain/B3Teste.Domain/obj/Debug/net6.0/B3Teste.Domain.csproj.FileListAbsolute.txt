@@ -1,0 +1,12 @@
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\bin\Debug\net6.0\B3Teste.Domain.deps.json
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\bin\Debug\net6.0\B3Teste.Domain.dll
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\bin\Debug\net6.0\B3Teste.Domain.pdb
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.csproj.AssemblyReference.cache
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.AssemblyInfoInputs.cache
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.AssemblyInfo.cs
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.dll
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\refint\B3Teste.Domain.dll
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\B3Teste.Domain.pdb
+C:\Users\Leo-Note\Desktop\B3Teste-Leonardo\B3Teste.Domain\obj\Debug\net6.0\ref\B3Teste.Domain.dll
