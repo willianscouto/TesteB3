@@ -16,6 +16,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSnackBarModule  } from '@angular/material/snack-bar';
 import {DataService} from './services/data.service';
 import {DialogSearchComponent} from './components/dialog-seach/dialog-search.component';
 
@@ -41,7 +42,7 @@ import {DialogSearchComponent} from './components/dialog-seach/dialog-search.com
       MatToolbarModule,
       MatPaginatorModule,
       ReactiveFormsModule,
-     
+      MatSnackBarModule
   ],
   providers: [
       DataService
