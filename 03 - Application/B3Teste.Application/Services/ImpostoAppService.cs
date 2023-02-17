@@ -34,10 +34,11 @@ namespace B3Teste.Application.Services
 
         private static double GetPercentualImposto(int totalMesesResgate)
         {
-            return totalMesesResgate < 7 ? GetImposto06Meses :
-                   totalMesesResgate > 6 && totalMesesResgate < 13 ? GetImposto12Meses :
-                   totalMesesResgate > 12 && totalMesesResgate < 25 ? GetImposto24Meses :
-                   GetImpostoMaior24Meses;
+            if (totalMesesResgate < 7) return GetImposto06Meses;
+            else if(totalMesesResgate >6 && totalMesesResgate <13) return GetImposto12Meses;
+            else if (totalMesesResgate > 12 && totalMesesResgate < 25) return GetImposto12Meses;
+            else return GetImposto24Meses;
+         
         }
 
         public async Task<ImpostoViewModel> GetImposto(ImpostoViewModel impostoViewModel)
@@ -45,21 +46,21 @@ namespace B3Teste.Application.Services
             await Task.Yield();
             var entity =_mapper.Map<Imposto>(impostoViewModel);
             var validationResult = new ImpostoValidation().Validate(entity);
-            if (!validationResult.IsValid) throw new Exception(validationResult?.Errors?.FirstOrDefault()?.ErrorMessage);
+            if (!validationResult.IsValid) throw new ArgumentNullException(validationResult?.Errors?.FirstOrDefault()?.ErrorMessage);
 
             entity = new Imposto(GetPercentualImposto(entity.TotalMesesResgate), entity.TotalMesesResgate);
             return _mapper.Map<ImpostoViewModel>(entity);
         }
 
-        public  async Task<double> GetValorLiquido(double valorInicial,double valorBruto, ImpostoViewModel impostoViewModel)
+        public  async Task<double> GetValorLiquido(double valorInicial,double valorBruto, double valorImposto)
         {
             await Task.Yield();
-            var entity = _mapper.Map<Imposto>(impostoViewModel);
-            double percentual = entity.ValorImposto / 100;
+            double percentual = valorImposto / 100;
             var valorLucroBruto = valorBruto - valorInicial;
             var valorLucroLiquido = valorLucroBruto - (percentual * valorLucroBruto);
             var retorno = valorInicial + valorLucroLiquido;
             return Math.Truncate(retorno * 100) / 100; 
         }
+
     }
 }

@@ -1,6 +1,4 @@
 ﻿using B3Teste.Application.Interfaces;
-using FluentValidation.Results;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -8,13 +6,13 @@ namespace B3Teste.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CDBController : ControllerBase
+    public class CdbController : ControllerBase
     {
 
         private readonly ICdbAppService _cdbAppService;
         private readonly IImpostoAppService _impostoAppService;
 
-        public CDBController(ICdbAppService cdbAppService,
+        public CdbController(ICdbAppService cdbAppService,
         IImpostoAppService impostoAppService)
         {
 
@@ -36,8 +34,6 @@ namespace B3Teste.API.Controllers
             }
             catch (Exception ex)
             {
-
-                var validationResult = new ValidationResult();
                 if (!string.IsNullOrEmpty(ex.Message)) return BadRequest(ex.Message);
                 else return StatusCode(500,"Erro Interno");
             }

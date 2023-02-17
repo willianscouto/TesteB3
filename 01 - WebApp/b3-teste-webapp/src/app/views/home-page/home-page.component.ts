@@ -56,6 +56,14 @@ export class HomePageComponent implements OnInit {
       if (result === 1) {
         // After dialog is closed we're doing frontend updates
         // For add we're just pushing a new row inside DataService
+       
+        const foundIndex = this.exampleDatabase?.dataChange.value;
+        foundIndex?.map((obj: any) => {
+          if (obj === undefined) return;
+          this.exampleDatabase?.dataChange.value.splice(obj, 1);
+        })
+
+      
         this.exampleDatabase?.dataChange.value.push(this.dataService.dialogData);
         this.refreshTable();
       }

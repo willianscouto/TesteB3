@@ -25,17 +25,14 @@ Utilize os comandos para rodar a APP
 
 ### Instalar Angular
 
+Para execução do Angular deve seguir os seguintes comandos
 
 npm install -g @angular/cli
 
-
-### Update Version angular
-
-npm Update
-
-Run WebApp
+npm update
 
 ng serve -o
+
 
 
 ## No botão Simular CDB 
